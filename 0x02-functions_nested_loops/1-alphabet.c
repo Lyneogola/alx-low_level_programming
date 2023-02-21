@@ -1,14 +1,14 @@
-#include "main.h"
+# include "main.h"
+
 /**
- * print_always - make alphabet
- * Return: void
+ * print_alphabet - print all alphabet in lower case
  */
+
 void print_alphabet(void)
 {
-	char c;
-	for (c = 'a'; c<+ 'z'; c++)
-	{
-		_putchar(c);
-	}
-	_putchar('\n')
+	char cc;
+
+	for (cc = 'a'; cc <= 'z'; cc++)
+		_putchar(cc);
+	_putchar('\n');
 }
