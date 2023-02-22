@@ -3,7 +3,7 @@
 /**
  * main - Entry pnt
  * 1 and 2, separated by coma
- * Return: 0
+ * Return: Always 0
  */
 
 int main(void)
