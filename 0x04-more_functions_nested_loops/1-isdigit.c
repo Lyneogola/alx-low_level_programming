@@ -1,8 +1,9 @@
-#incude "main.h"
+#include "main.h"
 
 /**
+ * _isdigit - Check if acharater is a digit
  * @x: The number to be checked
- * Return: 1 for a character that will be a digit or 0 for any else
+ * Return: 1 for a character that will be adigit or 0 any else
  */
 
 int _isdigit(int x)
