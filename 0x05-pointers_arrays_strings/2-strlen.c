@@ -1,9 +1,9 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
- * _strlen - return the length
+ * _strlen - lenght of string
  * @s: string
- * Return: length
+ * Return: lenght
  */
 int _strlen(char *s)
 {
@@ -14,5 +14,6 @@ int _strlen(char *s)
 		len++;
 		s++;
 	}
+
 	return (len);
 }
