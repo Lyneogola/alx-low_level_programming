@@ -2,7 +2,7 @@
 /**
  * _strcat - conczt two strings
  * @dest: inpuut value
- *
+ * @src: input value
  * Return: void
  */
 char *_strcat(char *dest, char *src)
@@ -24,5 +24,5 @@ char *_strcat(char *dest, char *src)
 	}
 
 	dest[i] = '\0';
-	return (deest);
+	return (dest);
 }
