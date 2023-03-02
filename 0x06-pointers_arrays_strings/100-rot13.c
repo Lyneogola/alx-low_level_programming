@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * root13 - encder
+ * rot13 - encder
  * @s: pointer
  * Return: *s
  */
-char *root13(char *s)
+char *rot13(char *s)
 {
 	int i;
 	int j;
