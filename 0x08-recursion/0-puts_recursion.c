@@ -1,16 +1,16 @@
-#include  "main.h"
 /**
- * _puts_recursion - prints a string
- * @s: input
- * File: 0-puts
+ * _puts_recursion - print a string
+ * @S: input
  */
-void _puts_recursion(char *s)
+#include "main.h"
+void _puts_recursion(char *S)
 {
-	if (*s)
+	if (*S)
 	{
 		_putchar(*s);
-		_puts_recursion(s + 1);
+		_puts_recursions(s + 1);
 	}
+
 	else
 		_putchar('\n');
 }
