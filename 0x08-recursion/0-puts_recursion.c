@@ -1,9 +1,8 @@
-#include "main.h"
-/***
- * File: 0-puts
- * Auth: sam
- * _puts_recursion - prints
+#include  "main.h"
+/**
+ * _puts_recursion - prints a string
  * @s: input
+ * File: 0-puts
  */
 void _puts_recursion(char *s)
 {
