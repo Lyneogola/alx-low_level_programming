@@ -1,10 +1,15 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.c>
+#include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+/**
+ * _isdigit - function
+ * @c: char
+ * Return: isdigit
+ */
 
 int _isdigit(int c)
 {
-	return isdigit(c);
+	return (isdigit(c));
 }

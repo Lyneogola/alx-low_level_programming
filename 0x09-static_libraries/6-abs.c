@@ -1,9 +1,14 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.c>
+#include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+/**
+ * _abs - function
+ * @n: in[put
+ * Return: abs
+ */
 int _abs(int n)
 {
-	return abs(n);
+	return (abs(n));
 }

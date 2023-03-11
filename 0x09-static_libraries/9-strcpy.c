@@ -1,10 +1,15 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.c>
+#include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-
+/**
+ * _strcpy - string copy
+ * @dest: destination
+ * @src: source
+ * Return: strcpy
+ */
 char *_strcpy(char *dest, char *src)
 {
-	return strcpy(dest,src);
+	return (strcpy(dest, src));
 }

@@ -1,8 +1,13 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.c>
+#include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+/**
+ * _islower - fun
+ * @c: input
+ * Return: int
+ */
 int _islower(int c)
 {
 	return (c >= 'a' && c <= 'z');

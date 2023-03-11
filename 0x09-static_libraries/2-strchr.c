@@ -4,11 +4,12 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * _strlen - string [length
+ * _strchr - string
  * @s: char
- * Return: strlen
+ * @c: char
+ * Return: string
  */
-int _strlen(char *s)
+char *_strchr(char *s, char c)
 {
-	return (strlen(s));
+	return (strchr(s, c));
 }

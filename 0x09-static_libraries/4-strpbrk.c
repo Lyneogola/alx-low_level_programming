@@ -1,10 +1,15 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.c>
+#include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-
-char *_strpbrk(char *s,char *accept)
+/**
+ * _strpbrk - funct
+ * @s: input
+ * @accept: input
+ * Return: strpbrk
+ */
+char *_strpbrk(char *s, char *accept)
 {
-	return strpbrk(s, accept);
+	return (strpbrk(s, accept));
 }
