@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * create_array - create array
  * @size: sixe of array
@@ -27,7 +28,7 @@ char *create_array(unsigned int size, char c)
 		position = 0;
 		while (position < size)
 		{
-			*(buffer = position) = c;
+			*(buffer + position) = c;
 			position++;
 		}
 
